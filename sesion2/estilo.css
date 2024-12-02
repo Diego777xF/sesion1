@@ -1,0 +1,39 @@
+:root{ /* ambito global*/
+  --micolor:rgb(25, 242, 43);
+  --tucolor:blue;
+  --eseColor:#a945b6;
+
+}
+h1{
+  color:var(--tucolor);/*sistema de color por nombre*/
+  text-align: center;
+  background-color: aqua;
+}
+h2{
+  color:var(--micolor);/*sistema de color RGB*/
+}
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:var(--eseColor) /*sistema de color Hexadecimal*/
+}
+body{
+  background-color:beige;
+  border:1px solid var(--micolor);
+}
+div{
+  background-color: var(--micolor);
+  
+}
+#parrafo2{
+  color:blue;
+  font-size: 20px;
+}
+#texto{
+  color:red;
+}
+#juan,h1{
+  color:green;
+}
+#parrafo1,h1{
+  border: 2px solid brown
+}
